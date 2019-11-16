@@ -1,0 +1,14 @@
+{
+  "name": "zadanky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "frontend": "cd zadanky-frontend && yarn start",
+    "backend": "cd zadanky-backend && yarn dev",
+    "dev": "concurrently --kill-others-on-fail \"yarn backend\" \"yarn frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
