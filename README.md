@@ -4,7 +4,7 @@ Projekt je součástí diplomové práce na téma *Webová aplikace pro plánov�
 
 ## Spuštění projektu
 
-1. Nainstalována aktuálni verze Node.js
+1. Nainstalována aktuálni verze Node.js a Yarn
 2. Instalace závislostí ve složce *frontend* a *backend* pomocí příkazu *yarn*
 3. Provedení příkazu *yarn start* ve složce *frontend* a *backend*
 4. Frontend dostupný na *http://localhost:3000*, backend na *http://localhost:4000*, resp. *http://localhost:4000/playground*
